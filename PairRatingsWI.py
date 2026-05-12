@@ -9,7 +9,7 @@ INPUT_FILE = APP_DIR / "ErateNCESmpnet_best_match_for_each_A_WI.csv"
 
 df = pd.read_csv(INPUT_FILE)
 
-OUTPUT_FILE = "ErateNCESmpnet_rater_judgements_WI.csv"
+OUTPUT_FILE = "ErateNCESmpnet_rater_judgments_WI.csv"
 
 st.title("A–B Statement Match Review for Wisconsin Schools")
 
