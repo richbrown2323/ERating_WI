@@ -77,7 +77,7 @@ if os.path.exists(OUTPUT_FILE):
 
     st.download_button(
         label="Download ratings CSV",
-        data=ratMTgs_df.to_csv(index=False),
+        data=ratings_df.to_csv(index=False),
         file_name="ErateNCESmpnet_rater_judgments_WI.csv",
         mime="text/csv"
     )
